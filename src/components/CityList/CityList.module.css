@@ -1,0 +1,17 @@
+.cityList {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.citylistTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .cityListContainer {
+    margin-bottom: 40px;
+  }
+}

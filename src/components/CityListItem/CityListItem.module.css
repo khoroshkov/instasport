@@ -1,0 +1,19 @@
+.cityItems {
+  display: inline-flex;
+  list-style: none;
+}
+
+.cityBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  transition: all 0.2s linear;
+}
+
+.cityBtn:hover {
+  background-color: #e7e7e7;
+  border-radius: 3px;
+  transform: scale(1.1);
+}

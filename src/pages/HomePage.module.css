@@ -1,0 +1,22 @@
+.homePageTitle {
+  font-family: "sans-serif";
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .homePageTitle {
+    margin-bottom: 40px;
+  }
+
+  .homePageWrapper {
+    width: 1200px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+  }
+
+  .clubListContainer {
+    display: grid;
+  }
+}

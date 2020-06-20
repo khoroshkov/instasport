@@ -1,0 +1,24 @@
+.activityItems {
+  display: inline-flex;
+  list-style: none;
+  margin-bottom: 7px;
+}
+
+.activityItems:not(:last-child) {
+  margin-right: 5px;
+}
+
+.activityBtn {
+  background-color: white;
+  color: black;
+  border: 1px solid #e7e7e7;
+  border-radius: 2px;
+  transition: all 0.2s linear;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.activityBtn:hover {
+  background-color: #e7e7e7;
+  transform: scale(1.1);
+}

@@ -1,0 +1,49 @@
+.navigationWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ececec;
+  position: relative;
+}
+
+.logoContainer {
+  position: absolute;
+  top: 3%;
+  padding-left: 70px;
+  z-index: 111;
+}
+
+.logoContainer a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 200px;
+  justify-content: space-between;
+  padding: 20px 70px 20px 0px;
+  margin: 0;
+}
+
+.menuList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.menuList a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+
+.menuList a:hover,
+.menuList a:hover {
+  color: #2626e2;
+  transform: scale(1.2);
+}

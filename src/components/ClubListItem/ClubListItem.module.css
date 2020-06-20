@@ -1,0 +1,36 @@
+.clubListItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid rgb(141, 141, 141);
+  transition: all 0.4s linear;
+}
+
+.clubListItems a {
+  text-decoration: none;
+}
+
+.clubListItemTitle {
+  color: rgb(95, 95, 95);
+}
+
+/*media*/
+
+@media screen and (min-width: 1200px) {
+  .clubListItemContainer {
+    width: 190px;
+    text-align: center;
+  }
+
+  .clubListItemContainer img {
+    width: 190px;
+  }
+
+  .clubListItems:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .clubListItems:hover {
+    transform: scale(1.1);
+  }
+}
