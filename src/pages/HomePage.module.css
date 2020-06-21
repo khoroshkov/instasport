@@ -3,8 +3,21 @@
   text-align: center;
 }
 
+.homePageTitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+}
+
 @media screen and (min-width: 1200px) {
   .homePageTitle {
+    font-size: 22px;
     margin-bottom: 40px;
   }
 
@@ -14,6 +27,7 @@
     grid-gap: 10px;
     grid-template-columns: 2fr 1fr;
     margin: 0 auto;
+    padding-bottom: 50px;
   }
 
   .clubListContainer {

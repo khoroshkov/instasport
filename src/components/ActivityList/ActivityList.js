@@ -19,11 +19,12 @@ export default function ActivityList({ clubs }) {
   return (
     <div>
       <ul className={styles.activitiesList}>
-        {[...activitiestoRender].map((act) => (
+        {[...activitiestoRender].map((act, index) => (
           <ActivityListItem
             activity={act}
             title={[...activitiestoRender]}
             getActivityHandler={getActivityHandler}
+            key={index}
           />
         ))}
       </ul>

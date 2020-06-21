@@ -1,7 +1,13 @@
 .ClubList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
   margin: 0;
   padding: 0;
 }
+
+
+/*media*/
 
 @media screen and (min-width: 1200px) {
   .ClubList {

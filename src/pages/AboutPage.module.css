@@ -1,0 +1,26 @@
+.aboutPageContainer {
+  margin: 0 auto;
+}
+
+.author {
+  color: #a5a5a5;
+}
+
+.linkedInIcon {
+  width: 25px;
+  padding-left: 20px;
+  padding-top: 10px;
+  transition: all ease-in-out 3000;
+}
+
+.linkedInIcon:hover {
+  transform: scale(1.1);
+}
+
+/*media*/
+
+@media screen and (min-width: 1200px) {
+  .aboutPageContainer {
+    width: 600px;
+  }
+}

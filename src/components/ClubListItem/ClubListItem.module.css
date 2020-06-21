@@ -1,6 +1,16 @@
+.clubListItemContainer {
+  width: 75px;
+  text-align: center;
+}
+
+.clubListItemContainer img {
+  width: 70px;
+}
+
+
 .clubListItems {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 5px;
   list-style: none;
   border: 1px solid rgb(141, 141, 141);
   transition: all 0.4s linear;
@@ -12,6 +22,7 @@
 
 .clubListItemTitle {
   color: rgb(95, 95, 95);
+  font-size: 12px;
 }
 
 /*media*/
@@ -32,5 +43,10 @@
 
   .clubListItems:hover {
     transform: scale(1.1);
+  }
+
+  .clubListItemTitle {
+    
+    font-size: 14px;
   }
 }

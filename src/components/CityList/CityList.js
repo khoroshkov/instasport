@@ -17,11 +17,12 @@ export default function CityList({ clubs }) {
     <div className={styles.cityListContainer}>
     <p className={styles.citylistTitle}>Найди клуб в своем городе</p>
       <ul className={styles.cityList}>
-        {[...citiesList].map((city) => (
+        {[...citiesList].map((city, index) => (
           <CityListItem
             city={city}
             title={[...citiesList]}
             getByCityHandler={getByCityHandler}
+            key={index}
           />
         ))}
       </ul>
