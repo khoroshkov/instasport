@@ -18,6 +18,16 @@
   cursor: pointer;
 }
 
+.activityBtnActive {
+  background-color: #e7e7e7;
+  color: #797979;
+  border: 1px solid #e7e7e7;
+  border-radius: 2px;
+  transition: all 0.2s linear;
+  padding: 10px;
+  cursor: pointer;
+}
+
 .activityBtn:hover {
   background-color: #e7e7e7;
   transform: scale(1.1);

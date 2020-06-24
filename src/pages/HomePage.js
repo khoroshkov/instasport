@@ -9,8 +9,9 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import styles from "./HomePage.module.css";
 
 export default function HomePage() {
-  const [clubs, setClubs] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [clubs, setClubs] = useState([]);
+
   const [error, setError] = useState(null);
 
   useEffect(() => {

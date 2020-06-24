@@ -9,9 +9,18 @@
   font-weight: 600;
 }
 
+@media screen and (min-width: 768px) {
+  .cityListContainer {
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .cityListContainer {
+    padding: 0;
     margin-bottom: 40px;
   }
 }
+
+

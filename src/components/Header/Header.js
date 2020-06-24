@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import routes from "../../services/routes";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import { CSSTransition } from "react-transition-group";
 import slide from "../../transitions/slide.module.css";
@@ -11,14 +11,14 @@ export function Header () {
   useEffect( () =>{
     setTimeout(() => {
       setIsloaded(true)
-    }, 500);
+    }, 1000);
   })
 
   return(
     <>
     <CSSTransition in={isLoaded} timeout={500} classNames={slide} unmountOnExit>
       <div className={styles.logoContainer}>
-        <a href="/">Instasport</a>
+        <Link to="/">Instasport</Link>
       </div>
     </CSSTransition>
   <div className={styles.navigationWrapper}>

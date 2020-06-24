@@ -1,29 +1,30 @@
 .navigationWrapper {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   background-color: #ececec;
   position: relative;
 }
 
 .logoContainer {
-  position: absolute;
-  top: 7%;
-  left: 30%;
-  z-index: 111;
+  display: none;
+  /* position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 111; */
 }
 
 .logoContainer a {
+  color: #000000;
+  font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .navContainer {
   display: flex;
-  flex-flow: row wrap;
-  width: 200px;
-  justify-content: space-between;
-  padding: 20px 70px 20px 0px;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px 0 20px 0px;
   margin: 0;
 }
 
@@ -50,11 +51,31 @@
 
 /*media*/
 
+@media screen and (min-width: 768px) {
+}
+
 @media screen and (min-width: 1200px) {
+  .navigationWrapper {
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ececec;
+    position: relative;
+  }
+
+  .navContainer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 200px;
+    justify-content: space-between;
+    padding: 20px 70px 20px 0px;
+    margin: 0;
+  }
+
   .logoContainer {
+    display: block;
     position: absolute;
     top: 3%;
-    left: 10%;
+    left: 12%;
     z-index: 111;
   }
 }

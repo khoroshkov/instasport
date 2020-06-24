@@ -1,16 +1,14 @@
 .clubListItemContainer {
-  width: 75px;
-  text-align: center;
+  width: 90px;
 }
 
 .clubListItemContainer img {
-  width: 70px;
+  display: block;
+  width: 90px;
 }
 
-
 .clubListItems {
-  margin: 0 auto;
-  padding: 5px;
+  padding: 0;
   list-style: none;
   border: 1px solid rgb(141, 141, 141);
   transition: all 0.4s linear;
@@ -20,12 +18,31 @@
   text-decoration: none;
 }
 
+.clubListItemContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
 .clubListItemTitle {
   color: rgb(95, 95, 95);
-  font-size: 12px;
+  font-size: 11px;
+  text-align: center;
 }
 
 /*media*/
+
+@media screen and (min-width: 768px) {
+  .clubListItemContainer {
+    width: 100%;
+  }
+
+  .clubListItemContainer img {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  
+}
 
 @media screen and (min-width: 1200px) {
   .clubListItemContainer {
@@ -46,7 +63,6 @@
   }
 
   .clubListItemTitle {
-    
     font-size: 14px;
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import { CityListItem } from "../CityListItem/CityListItem";
-import styles from "./CityList.module.css"
+import styles from "./CityList.module.css";
 
 export default function CityList({ clubs }) {
   const history = useHistory();
@@ -15,7 +15,7 @@ export default function CityList({ clubs }) {
 
   return (
     <div className={styles.cityListContainer}>
-    <p className={styles.citylistTitle}>Найди клуб в своем городе</p>
+      <p className={styles.citylistTitle}>Найди клуб в своем городе</p>
       <ul className={styles.cityList}>
         {[...citiesList].map((city, index) => (
           <CityListItem

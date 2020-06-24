@@ -12,6 +12,17 @@
   transition: all 0.2s linear;
 }
 
+.cityBtnActive {
+  background-color: #e7e7e7;
+  color: #797979;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  transition: all 0.2s linear;
+}
+
 .cityBtn:hover {
   background-color: #e7e7e7;
   border-radius: 3px;

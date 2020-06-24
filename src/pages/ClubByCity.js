@@ -16,18 +16,18 @@ export default function ClubByCity(city = "Киев") {
   const currentPath = location.pathname.slice(7);
 
   useEffect(() => {
-    setIsLoaded(true)
+    setIsLoaded(true);
     fetchAllClubs()
       .then((res) => setClubs(res.data))
       .then((error) => setError);
-    setIsLoaded(false)
+    setIsLoaded(false);
   }, []);
 
   const cityClubs = clubs.filter((club) => club.city.title === currentPath);
 
   return (
     <>
-        {isLoaded && (
+      {isLoaded && (
         <Loader
           type="Puff"
           color="#00BFFF"
