@@ -1,5 +1,7 @@
 .aboutPageContainer {
+  width: 300px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .author {
@@ -19,7 +21,7 @@
 
 /*media*/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .aboutPageContainer {
     width: 600px;
   }
